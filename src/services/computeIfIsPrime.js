@@ -5,6 +5,7 @@
  */
 export function computeIfIsPrime(number) {
   // Si le nombre est inférieur à 2, c'est forcément pas un nombre premier
+  let test;
   if (number < 2) {
     return false;
   }
